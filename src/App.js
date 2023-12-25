@@ -1,5 +1,5 @@
-import React from 'react'
-import './style.css'
+// import React from 'react'
+// import './style.css'
 import logo from './logo.png'
 function App(){
 
@@ -45,11 +45,11 @@ function App(){
   // )
 
   //Slide 52
-  let color = ['red', 'green', 'blue', 'yellow']
-  let list = color.map(c => <li>{c}</li>)
-  return <ul>{list}</ul>
+  // let color = ['red', 'green', 'blue', 'yellow']
+  // let list = color.map(c => <li>{c}</li>)
+  // return <ul>{list}</ul>
   
   //Slide 54
-  // return<img src={logo} width="10%" alt=""/>
+  return<img src={logo} width="10%" alt=""/>
 }
 export default App;
