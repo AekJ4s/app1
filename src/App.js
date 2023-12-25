@@ -4,9 +4,9 @@ import logo from './logo.png'
 function App(){
 
   // Slide 43
-  return(
-    <h3>Hello Wolrd!<br/>สวัสดีชาวโลก</h3>
-  )
+  // return(
+  //   <h3>Hello Wolrd!<br/>สวัสดีชาวโลก</h3>
+  // )
   // Slide 44 Part 1
   // let r = 'React'
   // let rn = 'React Native'
@@ -27,14 +27,14 @@ function App(){
   //   </table>
   // )
 
-  //Slide 27
-  // const divStyle = {
-  //   color: 'red',
-  //   backgroundColor: 'powderblue',
-  //   fontSize:'larger',
-  //   padding:'3px',
-  // }
-  // return <div style={divStyle}>Hello React</div>
+  // Slide 47
+  const divStyle = {
+    color: 'red',
+    backgroundColor: 'powderblue',
+    fontSize:'larger',
+    padding:'3px',
+  }
+  return <div style={divStyle}>Hello React</div>
 
   //Slide 49
   // return(
