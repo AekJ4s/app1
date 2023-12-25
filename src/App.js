@@ -3,25 +3,25 @@ import React from 'react'
 import logo from './logo.png'
 function App(){
 
-  // Slide 24
-  // let r = 'React'
-  // let rn = 'React Native'
-  // const el = (
-  //   <div>
-  //     Create Web & Mobile Apps<br />
-  //     with {r} &  {rn}
-  //   </div>
-  // )
-  // return el
-  
-  
-  return (
-    <table border="1">
-      <tr><th>Product</th><th>Price</th></tr>
-      <tr><th>React</th><th>320</th></tr>
-      <tr><th>React Native</th><th>340</th></tr>
-    </table>
+  // Slide 43
+  let r = 'React'
+  let rn = 'React Native'
+  const el = (
+    <div>
+      Create Web & Mobile Apps<br />
+      with {r} &  {rn}
+    </div>
   )
+  return el
+  
+  // code Slide 44
+  // return (
+  //   <table border="1">
+  //     <tr><th>Product</th><th>Price</th></tr>
+  //     <tr><th>React</th><th>320</th></tr>
+  //     <tr><th>React Native</th><th>340</th></tr>
+  //   </table>
+  // )
 
   //Slide 27
   // const divStyle = {
