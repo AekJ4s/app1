@@ -1,5 +1,5 @@
 import React from 'react'
-// import './style.css'
+import './style.css'
 import logo from './logo.png'
 function App(){
 
@@ -28,21 +28,21 @@ function App(){
   // )
 
   // Slide 47
-  const divStyle = {
-    color: 'red',
-    backgroundColor: 'powderblue',
-    fontSize:'larger',
-    padding:'3px',
-  }
-  return <div style={divStyle}>Hello React</div>
+  // const divStyle = {
+  //   color: 'red',
+  //   backgroundColor: 'powderblue',
+  //   fontSize:'larger',
+  //   padding:'3px',
+  // }
+  // return <div style={divStyle}>Hello React</div>
 
   //Slide 49
-  // return(
-  //   <>
-  //   <h2>DevelopThai.com</h2>
-  //   <div className='title'>React & React Native</div>
-  //   </>
-  // )
+  return(
+    <>
+    <h2>DevelopThai.com</h2>
+    <div className='title'>React & React Native</div>
+    </>
+  )
 
   //Slide 52
   // let color = ['red', 'green', 'blue', 'yellow']
