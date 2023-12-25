@@ -1,6 +1,6 @@
 // import React from 'react'
 // import './style.css'
-import logo from './logo.png'
+import logo from './CH.gif'
 function App(){
 
   // Slide 43
@@ -50,6 +50,7 @@ function App(){
   // return <ul>{list}</ul>
   
   //Slide 54
-  return<img src={logo} width="10%" alt=""/>
+  return<img src={logo} width="20%" alt="" />
+  
 }
 export default App;
