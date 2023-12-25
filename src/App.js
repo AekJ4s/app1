@@ -37,17 +37,17 @@ function App(){
   // return <div style={divStyle}>Hello React</div>
 
   //Slide 49
-  return(
-    <>
-    <h2>DevelopThai.com</h2>
-    <div className='title'>React & React Native</div>
-    </>
-  )
+  // return(
+  //   <>
+  //   <h2>DevelopThai.com</h2>
+  //   <div className='title'>React & React Native</div>
+  //   </>
+  // )
 
   //Slide 52
-  // let color = ['red', 'green', 'blue', 'yellow']
-  // let list = color.map(c => <li>{c}</li>)
-  // return <ul>{list}</ul>
+  let color = ['red', 'green', 'blue', 'yellow']
+  let list = color.map(c => <li>{c}</li>)
+  return <ul>{list}</ul>
   
   //Slide 54
   // return<img src={logo} width="10%" alt=""/>
