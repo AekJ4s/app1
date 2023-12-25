@@ -4,15 +4,19 @@ import logo from './logo.png'
 function App(){
 
   // Slide 43
-  let r = 'React'
-  let rn = 'React Native'
-  const el = (
-    <div>
-      Create Web & Mobile Apps<br />
-      with {r} &  {rn}
-    </div>
+  return(
+    <h3>Hello Wolrd!<br/>สวัสดีชาวโลก</h3>
   )
-  return el
+  // Slide 44 Part 1
+  // let r = 'React'
+  // let rn = 'React Native'
+  // const el = (
+  //   <div>
+  //     Create Web & Mobile Apps<br />
+  //     with {r} &  {rn}
+  //   </div>
+  // )
+  // return el
   
   // code Slide 44
   // return (
