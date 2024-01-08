@@ -1,8 +1,11 @@
-// import React from 'react'
-// import './style.css'
-import logo from './CH.gif'
+import React from 'react'
+import { Header } from './func-components';
+// import logo from './CH.gif'
 function App(){
 
+  return (
+    [<Header/>]
+  )
   // Slide 43
   // return(
   //   <h3>Hello Wolrd!<br/>สวัสดีชาวโลก</h3>
@@ -50,7 +53,7 @@ function App(){
   // return <ul>{list}</ul>
   
   //Slide 54
-  return<img src={logo} width="20%" alt="" />
+  // return<img src={logo} width="20%" alt="" />
   
 }
 export default App;
