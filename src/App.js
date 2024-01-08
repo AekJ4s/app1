@@ -1,16 +1,19 @@
 import React from 'react'
 import {Header,Content,Footer} from './func-components'
 import Calendar from './class-components'
+import MsgBox from './class-props'
+import MsgBox2 from './func-props'
 // import logo from './CH.gif'
 function App(){
 
   return (
-    <>
-      <Header/>
-      <p><center><Calendar/></center></p>
-      <Content />
-      <Footer/>
-    </>
+    <MsgBox
+      text="การใช้ props ใน Function Components"
+      color="red"
+      bgColor="#ccc"
+      fontSize="18pt"
+      border="solid 1px black"
+    />
     
   )
   // Slide 43
