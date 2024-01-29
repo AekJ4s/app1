@@ -1,20 +1,13 @@
 import React from 'react'
-// import {Header,Content,Footer} from './func-components'
-// import Calendar from './class-components'
-// import MsgBox from './class-props'
-// import MsgBox2 from './func-props'
 import { userContext } from './context'
-import Content from './context-content'
-import Header from './context-header'
-
-// import logo from './CH.gif'
-function App(){
-
+import Header2 from './context-header2'
+import Content2 from './context-content2'
+export default function App() {
+  let [user, setUser] = React.useState('')
   return (
-    <userContext.Provider value={'Jasdakorn Khumdej'}>
-    <Header/>
-    <Content/>
+    <userContext.Provider value={[user, setUser]}>
+      <Header2 />
+      <Content2 />
     </userContext.Provider>
   )
 }
-export default App;
