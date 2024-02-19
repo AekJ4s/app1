@@ -21,7 +21,7 @@ export default function FormText(){
 
     return (
         <div className="mt-4 mx-auto p-3 rounded"
-            style={{width: '400px', backgroundColor:'#cee'}}>
+            style={{width: '400px', backgroundColor:'black' , color:'white' }}>
         <form>
             <div className="form.group mb-2">
                 <label htmlFor="login">ชื่อผู้ใช้(login)</label>
