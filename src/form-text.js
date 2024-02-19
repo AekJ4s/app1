@@ -2,11 +2,11 @@ import React from "react"
 
 export default function FormText(){
     const textPswd = React.useRef()
-    const textPswd2 = React.createRef()
+    const textPswd2 = React.useRef()
 
     const  onBlurPassword1 = () =>{
         let pswd = textPswd.current.value
-        if(pswd !== '' && !pswd.math(/^[0-9a-zA-Z]+$/)){
+        if(pswd !== '' && !pswd.match(/^[0-9a-zA-Z]+$/)){
             textPswd.current.value = ''
             alert('ต้องเป็น 0-9 a-z หรือ A-Z เท่านั้น')
         }
@@ -34,8 +34,8 @@ export default function FormText(){
             </div>
             <div className="form-group mb-2">
             <label htmlFor="pswd">รหัสผ่านซ้ำ</label>
-            <input type="password" id="pswd" name="pswd" maxLength="10" className="form-control formcontrol-sm"
-            ref={textPswd} onBlur={onBlurPassword2} />
+            <input type="password" id="pswd2" name="pswd" maxLength="10" className="form-control formcontrol-sm"
+            ref={textPswd2} onBlur={onBlurPassword2} />
             </div>
             <div className="form-group mb-4">
                 <label htmlFor="memo">บันทึกช่วยจำ</label>
