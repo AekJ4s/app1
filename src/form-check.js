@@ -38,7 +38,7 @@ export default function FormCheck() {
         alert(msg)
     }
 
-    return (<div className='mt-4 mx-auto p-3' style={{ width: '450px', background: '#cee' }}>
+    return (<div className='mt-4 mx-auto p-3 rounded' style={{ width: '450px', background: '#cee' }}>
 
         <form>
         <span>font style:</span> &nbsp;&nbsp;

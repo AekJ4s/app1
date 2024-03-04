@@ -5,9 +5,11 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-image: url(https://4kwallpapers.com/images/wallpapers/ios-13-stock-ipados-green-black-background-amoled-ipad-hd-2560x1440-793.jpg);
-  background-size: 125%;
+  background-image: url("lisabackground.jpg");
+  background-size: 120%;
+  
 }
+
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
