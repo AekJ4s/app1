@@ -6,11 +6,16 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-image: url("lisabackground.jpg");
-  background-size: 120%;
-  
+  background-size: 130%;
+  background-position: top center;
 }
 
-
+.จาง{
+  opacity: 50%;
+}
+.เข้ม{
+  opacity: 100%;
+}
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
